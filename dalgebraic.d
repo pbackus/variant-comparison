@@ -13,7 +13,7 @@ struct T9 {}
 
 alias ExampleAlgebraic = Algebraic!(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9);
 
-int doVisit(ExampleAlgebraic a)
+int do_visit(ExampleAlgebraic a)
 {
 	return a.visit!(
 		(T0 val) => 3,
